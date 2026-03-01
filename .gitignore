@@ -44,8 +44,9 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Jupyter Notebook (Checkpoint-Ordner nicht versionieren)
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
 # VS Code
 .vscode/
@@ -57,13 +58,18 @@ coverage.xml
 .env
 .env.local
 
-# Submissions: version template/task/questions; answers.* ignoriert (nicht committen)
+# Submissions: version template/task/questions; students commit answers.* in their fork
 **/submissions/*
 !**/submissions/template.md
 !**/submissions/task.md
 !**/submissions/questions.md
 !**/submissions/questions.txt
 !**/submissions/questions.docx
+!**/submissions/answers.md
+!**/submissions/answers.txt
+!**/submissions/answers.docx
+!**/submissions/canvas_export.json
+!**/submissions/palette.json
 
 # Instructor key (nicht ins Studenten-Repo exportieren)
 .instructor_key
