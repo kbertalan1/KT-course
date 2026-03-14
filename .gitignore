@@ -60,6 +60,9 @@ coverage.xml
 
 # Submissions: version template/task/questions; students commit answers.* in their fork
 **/submissions/*
+# Checkpoint-Ordner und verschachtelte submissions-Ordner (inkl. Inhalt) ignorieren
+**/submissions/.ipynb_checkpoints/
+**/submissions/submissions/
 !**/submissions/template.md
 !**/submissions/task.md
 !**/submissions/questions.md
@@ -70,10 +73,11 @@ coverage.xml
 !**/submissions/answers.docx
 !**/submissions/canvas_export.json
 !**/submissions/palette.json
+!**/submissions/*.ipynb
+!**/submissions/*.py
+!**/submissions/*.pdf
 
-# Instructor key (nicht ins Studenten-Repo exportieren)
-.instructor_key
-lab_suite/.instructor_key
+
 
 # Launcher: lokaler UI-State (welche Kapitel-Expansions offen/zu)
 lab_suite/launcher_expansion_state.json
