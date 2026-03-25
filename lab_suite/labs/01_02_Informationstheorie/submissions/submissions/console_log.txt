@@ -1,0 +1,14 @@
+Analyze the file:  C:\Users\kissb\_Git\KT-course\lab_suite\labs\01_02_Informationstheorie\submissions\sidedata/sampletext.txt
+
+-----File Contents:---------------------------------------------------
+File open failed...
+-----End of File---------------------------------------------------
+
+Number of characters: 0
+Character Dictionary: {}
+
+-------Table of characters:----------------
+-------------------------------------------
+
+Average Entropy H = 0.000 bit/char
+Total Entropy of 0 characters H=0.00 bit = 0.00 byte

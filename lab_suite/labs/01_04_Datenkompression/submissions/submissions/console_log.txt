@@ -1,0 +1,1 @@
+Analyze the file:  C:\Users\kissb\_Git\KT-course\lab_suite\labs\01_04_Datenkompression\submissions\sidedata/sampletext.txt
