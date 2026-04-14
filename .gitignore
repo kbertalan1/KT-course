@@ -91,6 +91,9 @@ hackrf-driver/server/hackrf_client_config.json
 pluto/libiio/*.dll
 pluto/libiio/*.so
 
+# app_pluto_mod: TX-Stream-Debug (.c64 / .meta.json), nicht versionieren
+lab_suite/app_pluto_mod/debug_captures/
+
 # Node.js / Frontend
 node_modules/
 frontend/node_modules/
